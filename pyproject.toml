@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gmail-unsubscriber"
+version = "0.1.0"
+description = "Tool to Mass Unbscribe from emails."
+authors = ["robertthomas <thomcrnl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+imap-tools = "^1.2.0"
+pyqt5 = "^5.15.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
